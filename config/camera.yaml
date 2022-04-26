@@ -1,0 +1,12 @@
+cam1_name: cam1
+cam2_name: cam2
+
+cam1:
+  width: 2448
+  height: 2048
+  device_name: cam_long
+
+cam2:
+  width: 2048
+  height: 1536
+  device_name: cam_wide

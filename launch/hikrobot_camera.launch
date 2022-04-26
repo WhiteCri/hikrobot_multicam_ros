@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find hikrobot_multicam_tw)/config/camera.yaml" command="load"/>
+    <node pkg="hikrobot_multicam_tw" type="hikrobot_multicam_driver" name="hikrobot_camera" respawn="false" output="screen"/> 
+</launch>
